@@ -1,0 +1,31 @@
+digraph Tree {
+0 [label="WaterQuantity_dry <= 0.5000\ngini = 0.495170001055\nsamples = 48288", shape="box"] ;
+1 [label="WaterPoint_other <= 0.5000\ngini = 0.476277084393\nsamples = 43343", shape="box"] ;
+0 -> 1 ;
+2 [label="WaterPoint_communal standpipe multiple <= 0.5000\ngini = 0.454502766204\nsamples = 39688", shape="box"] ;
+1 -> 2 ;
+3 [label="gini = 0.4333\nsamples = 34939\nvalue = [ 23851.  11088.]", shape="box"] ;
+2 -> 3 ;
+4 [label="gini = 0.4861\nsamples = 4749\nvalue = [ 1979.  2770.]", shape="box"] ;
+2 -> 4 ;
+5 [label="ExtractionType_other <= 0.5000\ngini = 0.260238453031\nsamples = 3655", shape="box"] ;
+1 -> 5 ;
+6 [label="gini = 0.4085\nsamples = 1241\nvalue = [ 355.  886.]", shape="box"] ;
+5 -> 6 ;
+7 [label="gini = 0.1568\nsamples = 2414\nvalue = [  207.  2207.]", shape="box"] ;
+5 -> 7 ;
+8 [label="WaterInstaller_DWSP <= 0.5000\ngini = 0.0492781567925\nsamples = 4945", shape="box"] ;
+0 -> 8 ;
+9 [label="WaterInstaller_Sengerema Water Department <= 0.5000\ngini = 0.0447999243961\nsamples = 4929", shape="box"] ;
+8 -> 9 ;
+10 [label="gini = 0.0378\nsamples = 4879\nvalue = [   94.  4785.]", shape="box"] ;
+9 -> 10 ;
+11 [label="gini = 0.4712\nsamples = 50\nvalue = [ 19.  31.]", shape="box"] ;
+9 -> 11 ;
+12 [label="WaterBasin_Internal <= 0.5000\ngini = 0.375\nsamples = 16", shape="box"] ;
+8 -> 12 ;
+13 [label="gini = 0.2604\nsamples = 13\nvalue = [ 11.   2.]", shape="box"] ;
+12 -> 13 ;
+14 [label="gini = 0.4444\nsamples = 3\nvalue = [ 1.  2.]", shape="box"] ;
+12 -> 14 ;
+}
